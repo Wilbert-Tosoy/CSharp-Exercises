@@ -24,7 +24,7 @@ namespace ArrayExercise_3
                 sum += array[i];
             }
 
-            WriteLine($"Sum of all elements stored in the array is: {sum}");
+            WriteLine($"Sum of all elements : {sum}");
 
             ReadKey();
         }
