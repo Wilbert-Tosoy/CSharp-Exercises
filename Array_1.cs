@@ -8,7 +8,12 @@ namespace ArrayExercise_1
     {
         static void Main(string[] args)
         {
-            int[] array = new int[10];
+            int number;
+
+            Write("Enter total elements: ");
+            number = ToInt32(ReadLine());
+
+            int[] array = new int[number];
 
             // Read the inputs.
             WriteLine("Enter 10 elements in the array.");
