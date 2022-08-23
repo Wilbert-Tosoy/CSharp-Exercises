@@ -29,8 +29,9 @@ namespace ArrayExercise_2
             }
 
             // Print the inputs in reverse.
+            Array.Reverse(array);
             WriteLine($"\nThe values store into the array in reverse are: ");
-            for (int i = array.Length - 1; i >= 0; i--)
+            for (int i = 0; i < array.Length; i++)
             {
                 Write($"{array[i]} ");
             }
